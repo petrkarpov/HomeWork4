@@ -1,6 +1,6 @@
 package Apples;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -17,8 +17,11 @@ public class Main {
     }
 
     public static void numberAndName(String name, int numberApples) {
-        List<Integer> arrayApples = Arrays.asList(11, 12, 13, 14);
 
+        List<Integer> arrayApples = new ArrayList<>();
+        for (int i = 11; i < 15; i++) {
+            arrayApples.add(i);
+        }
         if (numberApples >= 0 && numberApples <= 100) {
             if (numberApples % 10 == 1 && !arrayApples.contains(numberApples)) {
                 System.out.println(name + " хранит " + numberApples + " яблоко");
