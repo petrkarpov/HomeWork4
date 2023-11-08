@@ -2,7 +2,7 @@ package Ternary;
 
 public class Ternary {
     public static void main(String[] args) {
-        int num = -5; //ввести нужно число для проверки
+        int num = -5;   //ввести нужноe число для проверки
         System.out.println(convertNumber(num));
     }
 
