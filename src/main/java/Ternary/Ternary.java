@@ -1,6 +1,6 @@
 package Ternary;
 
-public class Main {
+public class Ternary {
     public static void main(String[] args) {
         int num = -5; //ввести нужно число для проверки
         System.out.println(convertNumber(num));

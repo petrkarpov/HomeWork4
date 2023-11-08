@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class Apples {
     public static void main(String[] args) {
-
         Scanner n = new Scanner(System.in);
         System.out.println("Введите имя: ");
         String name = n.nextLine();
@@ -17,8 +16,8 @@ public class Main {
     }
 
     public static void numberAndName(String name, int numberApples) {
-
         List<Integer> arrayApples = new ArrayList<>();
+
         for (int i = 11; i < 15; i++) {
             arrayApples.add(i);
         }
